@@ -33,13 +33,13 @@ const Header: React.FC = () => {
   return (
     <header 
       className={`fixed top-0 left-0 w-full z-50 transition-all duration-300 ${
-        isScrolled ? 'bg-white shadow-md py-2' : 'bg-transparent py-4'
+        isScrolled ? 'bg-med-teal shadow-md py-2' : 'bg-light-cream py-4'
       }`}
     >
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between">
           {/* Logo */}
-          <Link to="/" className="font-semibold text-2xl text-forest-green">
+          <Link to="/" className="font-semibold text-2xl text-dark-teal">
             ArtisanCraft
           </Link>
 

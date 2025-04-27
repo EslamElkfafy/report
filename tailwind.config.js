@@ -4,12 +4,16 @@ export default {
   theme: {
     extend: {
       colors: {
+        'light-cream': '#F2EFE7',
+        'light-teal': '#9ACBD0',
+        'med-teal': '#48A6A7',
+        'dark-teal': '#006A71',
         'forest-green': '#2D5D3C',
         'forest-green-dark': '#1F3D28',
         'cream': '#F9F4E8',
         'terracotta': '#CB6D51',
         'terracotta-light': '#E5A190',
-        'clay-brown': '#A97C50',
+        'clay-brown': '#A97C50'
       },
       fontFamily: {
         sans: ['Inter', 'sans-serif'],

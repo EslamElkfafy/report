@@ -24,14 +24,14 @@ const ProductCard: React.FC<ProductCardProps> = ({ product }) => {
       
       {/* Out of Stock Badge */}
       {product.inStock === 0 && (
-        <div className="absolute top-2 right-2 bg-gray-800 text-white px-2 py-1 text-xs font-medium rounded">
+        <div className="absolute top-2 right-2 bg-dark-teal text-white px-2 py-1 text-xs font-medium rounded">
           Out of Stock
         </div>
       )}
       
       {/* Low Stock Badge */}
       {product.inStock > 0 && product.inStock <= 3 && (
-        <div className="absolute top-2 right-2 bg-amber-500 text-white px-2 py-1 text-xs font-medium rounded">
+        <div className="absolute top-2 right-2 bg-med-teal text-white px-2 py-1 text-xs font-medium rounded">
           Only {product.inStock} left
         </div>
       )}
